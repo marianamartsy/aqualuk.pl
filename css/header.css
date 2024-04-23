@@ -10,9 +10,9 @@
 	background-image: var(--background-garadient), url('../img/header_hydraulic-design_640.png');
 	background-size: cover;
 	background-position: center;
-	/* background-attachment: scroll; */
 	background-attachment: fixed;
 }
+
 .header_logo {
 	position: absolute;
 	top: 0;
@@ -60,7 +60,6 @@
 	}
 	.header {
 		background-image: var(--background-garadient), url('../img/header_hydraulic-design_1280.webp');
-		background-attachment: fixed;
 	}
 	.header__btn {
 		font-size: 25px;
