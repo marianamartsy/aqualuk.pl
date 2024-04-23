@@ -7,6 +7,7 @@
 	text-align: center;
 	padding: 10px;
 	height: 80vh;
+	min-height: 400px;
 	background-image: var(--background-garadient), url('../img/header_hydraulic-design_640.png');
 	background-size: cover;
 	background-position: center;
