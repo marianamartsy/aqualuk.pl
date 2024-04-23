@@ -1,1 +1,1 @@
-# aqualuk.pl
+# aqualuk
