@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+
+::before,
+::after,
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root {
+	--main-color: #263a54;
+	--secondary-color: #d99d2e;
+	--light-color: #486284;
+	--dark-color: #2d2f33;
+	--pure-white-color: #ffffff;
+	--disabled-color: #59503f;
+	--error-color: #990000;
+	--background-garadient: linear-gradient(15deg, rgba(72, 98, 132, 0.3), rgba(38, 58, 84));
+	--background-garadient-solid: linear-gradient(55deg, #ffffff, #263a54);
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+.container {
+	width: 100%;
+	max-width: 1400px;
+	margin: auto;
+}
+img {
+	display: block;
+	width: 100%;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+.section-heading {
+	position: relative;
+	margin: 20px 0;
+	font-size: 30px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--main-color);
+	letter-spacing: 2px;
+}
+
+.section-padding {
+	padding: 15px 13px;
+}
+.btn-special-animation {
+	transition: transform 1s, background-color 1s;
+}
+
+.btn-special-animation:hover {
+	background-color: var(--secondary-color);
+	transform: scale(1.1);
+}
+
+@media (min-width: 576px) {
+	.section-heading {
+		font-size: 40px;
+	}
+}
+@media (min-width: 768px) {
+	.section-heading {
+		font-size: 50px;
+		padding: 40px;
+	}
+	.section-padding {
+		padding: 20px 19px;
+	}
+}
+@media (min-width: 992px) {
+	.section-heading {
+		font-size: 60px;
+	}
+	.section-padding {
+		padding: 25px 19px;
+	}
+}

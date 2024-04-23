@@ -1,0 +1,22 @@
+.hero-img {
+	position: relative;
+	padding: 200px 50px;
+	background-image: var(--background-garadient),
+		url('../img/Logo_Aqualuk/AQUALUK_logo_wersja_alternatywna_transparent_RGB_1000x672px.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	/* background-attachment: scroll; */
+	background-attachment: fixed;
+	text-align: center;
+	color: var(--pure-white-color);
+	overflow: hidden;
+}
+
+@media (min-width: 500px) {
+	.hero-img {
+		background-attachment: fixed;
+	}
+}
+
+

@@ -1,0 +1,77 @@
+.header {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 10px;
+	height: 80vh;
+	background-image: var(--background-garadient), url('../img/header_hydraulic-design_640.png');
+	background-size: cover;
+	background-position: center;
+	/* background-attachment: scroll; */
+	background-attachment: fixed;
+}
+.header_logo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 25px;
+	width: 200px;
+}
+.header__title {
+	color: var(--pure-white-color);
+	margin-top: 80px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 10px;
+}
+.header__text,
+.header__sub-text {
+	color: var(--pure-white-color);
+}
+.header__text {
+	color: var(--pure-white-color);
+	letter-spacing: 1.7px;
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+.header__sub-text {
+	font-size: 20px;
+	padding-bottom: 30px;
+}
+.header__btn {
+	padding: 10px 70px;
+	margin-bottom: 30px;
+	text-decoration: none;
+	border: 2px solid var(--pure-white-color);
+	border-radius: 7px;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 20px;
+	color: var(--pure-white-color);
+}
+
+@media (min-width: 768px) {
+	.header_logo {
+		width: 300px;
+	}
+	.header {
+		background-image: var(--background-garadient), url('../img/header_hydraulic-design_1280.webp');
+		background-attachment: fixed;
+	}
+	.header__btn {
+		font-size: 25px;
+	}
+	.header__title {
+		font-size: 55px;
+	}
+	.header__text {
+		font-size: 35px;
+	}
+	.header__sub-text {
+		font-size: 28px;
+	}
+}
