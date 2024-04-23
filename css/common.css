@@ -52,7 +52,8 @@ body {
 	transition: transform 1s, background-color 1s;
 }
 
-.btn-special-animation:hover {
+.btn-special-animation:hover,
+.btn-special-animation:focus {
 	background-color: var(--secondary-color);
 	transform: scale(1.1);
 }
