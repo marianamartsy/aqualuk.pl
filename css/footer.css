@@ -32,8 +32,8 @@
 	color: var(--secondary-color);
 }
 .footer__bottom-text {
-	text-decoration: none;
-	color: inherit;
+	text-decoration: none !important;
+	color: inherit !important;
 	padding: 14px;
 	display: inline-block;
 }
@@ -45,7 +45,8 @@
 	list-style: none;
 	margin-top: 15px;
 }
-.footer__box-list-item, .footer__box-list-item a {
+.footer__box-list-item,
+.footer__box-list-item a {
 	text-decoration: none;
 	color: inherit;
 	margin-bottom: 10px;
