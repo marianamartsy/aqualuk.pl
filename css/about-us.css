@@ -13,7 +13,7 @@
 .aboutus__img {
 	position: relative;
 	border-radius: 7px;
-	animation: appear 3s ease-in-out;
+	animation: appear 5s ease-in-out;
 }
 .aboutus__title {
 	text-transform: uppercase;
