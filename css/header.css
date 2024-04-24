@@ -46,6 +46,7 @@
 	padding: 10px 70px;
 	margin-bottom: 30px;
 	text-decoration: none;
+	background-color: var(--background-garadient);
 	border: 2px solid var(--pure-white-color);
 	border-radius: 7px;
 	cursor: pointer;
@@ -53,6 +54,16 @@
 	letter-spacing: 1px;
 	font-size: 20px;
 	color: var(--pure-white-color);
+	animation: pulse 1s;
+}
+
+.header__icon {
+	position: absolute;
+	bottom: 0;
+	padding: 10px;
+	font-size: 45px;
+	color: var(--pure-white-color);
+	animation: scale 2s infinite ease-in-out;
 }
 
 @media (min-width: 768px) {

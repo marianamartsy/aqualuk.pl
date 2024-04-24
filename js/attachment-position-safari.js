@@ -1,5 +1,6 @@
 const header = document.querySelector('.header')
 const heroImg = document.querySelector('.hero-img')
+
 function isMobile() {
 	return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
 }

@@ -18,10 +18,12 @@
 .offer-list__item:focus  {
 	transform: scale(1.1);
 }
+
 .offer-list__item .bi {
 	font-size: 35px;
 	color: var(--secondary-color);
 	margin: 20px;
+	animation: scale 2s infinite ease-in-out;
 }
 
 .offer-list .offer-list__item:nth-of-type(even) .bi {
