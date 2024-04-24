@@ -54,7 +54,7 @@
 	letter-spacing: 1px;
 	font-size: 20px;
 	color: var(--pure-white-color);
-
+	animation: pulse 2s ease-in-out;
 }
 
 .header__icon {
