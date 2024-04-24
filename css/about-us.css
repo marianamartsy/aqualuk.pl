@@ -13,7 +13,7 @@
 .aboutus__img {
 	position: relative;
 	border-radius: 7px;
-	animation: appear 2s ease-in-out;
+	animation: appear 3s ease-in-out;
 }
 .aboutus__title {
 	text-transform: uppercase;
@@ -28,14 +28,6 @@
 	letter-spacing: 1.5px;
 }
 
-@keyframes appear {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
-}
 
 @media (min-width: 576px) {
 	.aboutus__box {
