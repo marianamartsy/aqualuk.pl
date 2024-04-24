@@ -46,7 +46,7 @@
 	padding: 10px 70px;
 	margin-bottom: 30px;
 	text-decoration: none;
-	background-color: var(--background-garadient);
+	background-color: var(--light-color);
 	border: 2px solid var(--pure-white-color);
 	border-radius: 7px;
 	cursor: pointer;
