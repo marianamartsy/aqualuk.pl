@@ -224,10 +224,14 @@
             <div class="container">
                 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
                     action="https://formspree.io/f/mbjepdyg" method="post" class="contact__form">
-                    <div class="contact__form-top"><label for="full-name" class="contact__form-label">Imię i
+                    <div class="contact__form-top">
+                        <label for="full-name" class="contact__form-label">Imię i
                             nazwisko</label>
                         <input type="text" name="name" id="full-name" class="contact__form-input"
                             placeholder="Imię i nazwisko" required="">
+                        <label class="contact__form-label" for="telephone">Numer telefonu</label>
+                        <input class="contact__form-input" type="number" name="telephone" id="telephone"
+                            placeholder="555555555" required="">
                         <label for="email-address" class="contact__form-label">Adres e-mail</label>
                         <input type="email" name="_replyto" class="contact__form-input" id="email-address"
                             placeholder="email@domain.com" required="">
@@ -236,6 +240,16 @@
                     <textarea rows="5" name="message" id="message" placeholder="" required=""
                         class="contact__form-textarea"></textarea>
                     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                    <div class="contact__form-checkbox">
+                        <input type="checkbox" name="consent" id="consent" required="">
+                        <label required="" for="consent">Wyrażam zgodę na przetwarzanie moich danych osobowych przez Aqualuk Sp. z
+                            o.o. w celu i w zakresie niezbędnym do realizacji obsługi wiadomości wysłanej w powyższym
+                            formularzu kontaktowym. Oświadczam, że zapoznałem się ze sposobem przetwarzania moich danych
+                            osobowych przedstawionym w <a href="privacy-policy.html"
+                                class="footer__privacy-policy">Polityce prywatnosci.</a>
+
+                        </label>
+                    </div>
                     <input type="submit" class="contact__form-btn btn-special-animation" value="Wyślij">
                 </form>
             </div>
