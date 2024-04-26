@@ -33,14 +33,18 @@
 	min-height: 150px;
 }
 .contact__form-btn {
-	align-self: flex-end;
 	font-size: 20px;
 	padding: 10px;
 	width: 100%;
-	max-width: 310px;
 	color: var(--pure-white-color);
 	border: none;
 	border-radius: 8px;
 	background-color: var(--main-color);
 	cursor: pointer;
+}
+@media (min-width: 768px) {
+	.contact__form-btn {
+		align-self: flex-end;
+		max-width: 400px;
+	}
 }
