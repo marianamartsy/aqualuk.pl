@@ -43,6 +43,7 @@
 	cursor: pointer;
 }
 .contact__form-checkbox {
+	font-size: 15px;
 	padding: 10px;
 }
 
