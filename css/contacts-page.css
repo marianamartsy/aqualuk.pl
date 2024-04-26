@@ -1,0 +1,34 @@
+.contacts__box {
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.contacts_logo {
+	width: 200px;
+}
+.contacts__box-list {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	margin-top: 30px;
+}
+.contacts__box-list-item {
+	padding: 10px;
+	font-size: 20px;
+	color: var(--main-color);
+}
+.contacts__box-list-item a {
+	text-decoration: none;
+	color: var(--main-color);
+}
+
+@media (min-width: 576px) {
+	.contacts_logo {
+		width: 400px;
+	}
+	.contacts__box-list-item {
+		font-size: 30px;
+	}
+}
