@@ -77,6 +77,7 @@
 .privacy-message {
 	position: fixed;
 	bottom: 0;
+	width: 100vw;
 	background-image: var(--background-gradient);
 	flex-direction: column;
 	justify-content: center;
