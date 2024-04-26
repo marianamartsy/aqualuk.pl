@@ -1,12 +1,12 @@
 .contacts__box {
-	padding: 40px;
+	padding: 10px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 .contacts_logo {
-	width: 200px;
+	width: 250px;
 }
 .contacts__box-list {
 	display: flex;
@@ -23,7 +23,12 @@
 	text-decoration: none;
 	color: var(--main-color);
 }
-
+.contacts__box-social {
+	padding: 20px;
+}
+.contacts__box-social a {
+	color: var(--main-color);
+}
 @media (min-width: 576px) {
 	.contacts_logo {
 		width: 400px;
