@@ -87,6 +87,8 @@
 }
 .privacy-message__button,
 .privacy-message__icon {
+	color: var(--dark-color);
+	text-decoration: none;
 	border: 0;
 	margin: 7px;
 	border-radius: 8px;
