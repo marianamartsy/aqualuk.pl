@@ -72,9 +72,12 @@
 .privacy-message__button-box {
 	display: flex;
 	padding: 10px;
+	color: var(--pure-white-color);
 }
 .privacy-message {
-	max-width: 1200px;
+	position: fixed;
+	bottom: 0;
+	background-image: var(--background-gradient);
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -86,8 +89,7 @@
 	border: 0;
 	margin: 7px;
 	border-radius: 8px;
-	background-color: var(--main-color);
-	color: var(--pure-white-color);
+	background-color: var(--pure-white-color);
 	padding: 10px;
 	font-size: 16px;
 }

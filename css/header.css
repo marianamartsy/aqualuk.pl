@@ -8,7 +8,7 @@
 	padding: 10px;
 	height: 80vh;
 	min-height: 600px;
-	background-image: var(--background-garadient), url('../img/3.webp');
+	background-image: var(--background-gradient), url('../img/3.webp');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;

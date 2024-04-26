@@ -9,7 +9,7 @@
 	width: 100%;
 	transform: translateX(100%);
 	transition: .7s cubic-bezier(0.75, 0.082, 0.165, 1);
-	background-image: var(--background-garadient-solid);
+	background-image: var(--background-gradient-solid);
 	z-index: 100;
 }
 .nav__item {
