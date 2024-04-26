@@ -3,6 +3,9 @@
 		padding: 15px 0;
 	}
 }
+.gallery.section-padding {
+	padding: 65px 0;
+}
 .gallery__box {
 	position: relative;
 	margin: 20px;

@@ -1,6 +1,6 @@
 .contact {
 	overflow: hidden;
-	background-image: url('../img/contact.webp');
+	background-image: var(--background-garadient), url('../img/contact.webp');
 	background-color: var(--dark-color);
 	background-size: cover;
 	background-position: center;
