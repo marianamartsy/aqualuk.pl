@@ -95,6 +95,7 @@
 	background-color: var(--pure-white-color);
 	padding: 10px;
 	font-size: 16px;
+	cursor: pointer;
 }
 
 @media (min-width: 768px) {
