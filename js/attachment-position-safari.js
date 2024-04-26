@@ -1,5 +1,4 @@
-const header = document.querySelector('.header')
-const heroImg = document.querySelector('.hero-img')
+const fixedImg = document.querySelectorAll('.fixed-img')
 
 function isMobile() {
 	return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
@@ -10,9 +9,11 @@ function isSafariMobile() {
 }
 
 if (isMobile() && isSafariMobile()) {
-	header.style.backgroundAttachment = 'scroll'
-    heroImg.style.backgroundAttachment = 'scroll'
+	fixedImg.forEach(element => {
+		element.style.backgroundAttachment = 'scroll'
+	})
 } else {
-	header.style.backgroundAttachment = 'fixed'
-    heroImg.style.backgroundAttachment = 'fixed'
+	fixedImg.forEach(element => {
+		element.style.backgroundAttachment = 'fixed'
+	})
 }

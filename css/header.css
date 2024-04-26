@@ -8,7 +8,7 @@
 	padding: 10px;
 	height: 80vh;
 	min-height: 600px;
-	background-image: var(--background-garadient), url('../img/header_hydraulic-design_640.png');
+	background-image: var(--background-garadient), url('../img/3.webp');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -70,9 +70,9 @@
 	.header_logo {
 		width: 300px;
 	}
-	.header {
+	/* .header {
 		background-image: var(--background-garadient), url('../img/header_hydraulic-design_1280.webp');
-	}
+	} */
 	.header__btn {
 		font-size: 25px;
 	}

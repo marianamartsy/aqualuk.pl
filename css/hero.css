@@ -1,13 +1,23 @@
 .hero-img {
 	position: relative;
 	padding: 200px 50px;
-	background-image: var(--background-garadient),
-		url('../img/Logo_Aqualuk/AQUALUK_logo_wersja_alternatywna_transparent_RGB_1000x672px.png');
-	background-size: contain;
+	background-image: var(--background-garadient), url('../img/1.webp');
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
 	overflow: hidden;
 }
 
-
+.hero_logo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+}
+@media (min-width: 768px) {
+	.hero_logo {
+		width: 500px;
+	}
+}

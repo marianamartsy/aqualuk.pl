@@ -1,6 +1,10 @@
 .contact {
 	overflow: hidden;
+	background-image: url('../img/contact.webp');
 	background-color: var(--dark-color);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 }
 .contact__form,
 .contact__form-top {

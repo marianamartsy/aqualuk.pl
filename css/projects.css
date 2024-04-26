@@ -1,10 +1,7 @@
 .projects {
 	position: relative;
 	padding: 40px 15px;
-	background-image: var(--background-garadient);
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
+	background-color: var(--main-color);
 	overflow: hidden;
 }
 .projects__section-heading {
