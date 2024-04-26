@@ -3,6 +3,9 @@
 		padding: 15px 0;
 	}
 }
+.gallery__container{
+	padding: 15px;
+}
 .gallery.section-padding {
 	padding: 65px 0;
 }
