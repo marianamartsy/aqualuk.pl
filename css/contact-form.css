@@ -37,11 +37,12 @@
 	padding: 10px;
 	width: 100%;
 	color: var(--pure-white-color);
-	border: none;
-	border-radius: 8px;
+	border: 0.1px solid var(--pure-white-color);
+	border-radius: 7px;
 	background-color: var(--main-color);
 	cursor: pointer;
 }
+
 .contact__form-checkbox {
 	font-size: 15px;
 	padding: 10px;
