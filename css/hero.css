@@ -44,16 +44,3 @@
 	}
 }
 
-
-.hero_logo {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 300px;
-}
-@media (min-width: 768px) {
-	.hero_logo {
-		width: 500px;
-	}
-}
