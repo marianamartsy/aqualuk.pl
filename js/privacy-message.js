@@ -8,6 +8,6 @@ if (sessionStorage.getItem('cookieAccepted')) {
 buttons.forEach(button => {
 	button.addEventListener('click', () => {
 		privacyMessageBox.style.display = 'none'
-		sessionStorage.setItem('cookieAccepted', 'true') 
+		sessionStorage.setItem('cookieAccepted', 'true')
 	})
 })

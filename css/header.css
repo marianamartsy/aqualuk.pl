@@ -8,7 +8,7 @@
 	padding: 10px;
 	height: 80vh;
 	min-height: 600px;
-	background-image: var(--background-gradient), url('../img/3.webp');
+	background-image: var(--background-gradient), url('../img/header_hydraulic-design_640.png');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -77,12 +77,17 @@
 		font-size: 25px;
 	}
 	.header__title {
-		font-size: 55px;
+		font-size: 65px;
 	}
 	.header__text {
 		font-size: 35px;
 	}
 	.header__sub-text {
 		font-size: 28px;
+	}
+}
+@media (min-width: 992px) {
+	.header {
+		background-image: var(--background-gradient), url('../img/header_hydraulic-design_1280.webp');
 	}
 }

@@ -1,0 +1,24 @@
+@media (max-width: 767px) {
+	.producers.section-padding {
+		padding: 15px 0;
+	}
+	.producers__container{
+		margin: 15px;
+	}
+}
+.producers__container{
+	padding: 15px;
+}
+.producers.section-padding {
+	padding: 65px 0;
+}
+.producers__box {
+	position: relative;
+	margin: 10px;
+	cursor: pointer;
+}
+.producers__box img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}

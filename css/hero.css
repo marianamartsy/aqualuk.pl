@@ -1,7 +1,8 @@
 .hero-img {
+	margin: 30px 0;
 	position: relative;
 	padding: 200px 50px;
-	background-image: var(--background-gradient), url('../img/1.webp');
+	background-image: var(--background-gradient), url('../img/about-us-brass_640.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;

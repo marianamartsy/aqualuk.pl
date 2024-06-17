@@ -15,7 +15,7 @@
 	--pure-white-color: #ffffff;
 	--disabled-color: #59503f;
 	--error-color: #990000;
-	--background-gradient: linear-gradient(15deg, rgba(72, 98, 132, 0.5), rgba(38, 58, 84, 0.5));
+	--background-gradient: linear-gradient(15deg, rgba(72, 98, 132, 0.8), rgba(38, 58, 84, 0.5));
 	--background-gradient-solid: linear-gradient(55deg, #ffffff, #263a54);
 	scroll-behavior: smooth;
 	font-size: 62.5%;
