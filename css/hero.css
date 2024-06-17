@@ -1,14 +1,49 @@
 .hero-img {
 	margin: 30px 0;
 	position: relative;
-	padding: 200px 50px;
-	background-image: var(--background-gradient), url('../img/about-us-brass_640.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
+	height: 60vh;
+	width: 100%;
 	overflow: hidden;
+	background-image: var(--background-gradient);
+	min-height: 300px;
 }
+
+.hero-img__mobile {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: -1000;
+}
+.hero__logo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 700px;
+}
+
+@media (min-width: 992px) {
+	.hero-img__mobile {
+		display: none;
+	}
+	.hero-img {
+		padding: 200px 50px;
+		background-image: var(--background-gradient), url('../img/about-us-brass_640.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+}
+
+@media (min-width: 768px) {
+	.hero_logo {
+		width: 500px;
+	}
+}
+
 
 .hero_logo {
 	position: absolute;
