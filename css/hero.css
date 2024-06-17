@@ -1,11 +1,10 @@
 .hero-img {
 	margin: 30px 0;
 	position: relative;
-	height: 60vh;
+	height: 300px;
 	width: 100%;
 	overflow: hidden;
 	background-image: var(--background-gradient);
-	min-height: 300px;
 }
 
 .hero-img__mobile {
@@ -22,20 +21,7 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	max-width: 700px;
-}
-
-@media (min-width: 992px) {
-	.hero-img__mobile {
-		display: none;
-	}
-	.hero-img {
-		padding: 200px 50px;
-		background-image: var(--background-gradient), url('../img/about-us-brass_640.jpg');
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-	}
+	width: 300px;
 }
 
 @media (min-width: 768px) {
@@ -43,4 +29,15 @@
 		width: 500px;
 	}
 }
-
+@media (min-width: 992px) {
+	.hero-img__mobile {
+		display: none;
+	}
+	.hero-img {
+		padding: 100px 50px;
+		background-image: var(--background-gradient), url('../img/about-us-brass_640.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+}
