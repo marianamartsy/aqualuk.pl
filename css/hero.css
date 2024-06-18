@@ -1,5 +1,4 @@
 .hero-img {
-
 	position: relative;
 	height: 300px;
 	width: 100%;
@@ -35,7 +34,7 @@
 	}
 	.hero-img {
 		padding: 100px 50px;
-		background-image: var(--background-gradient), url('../img/about-us-brass_640.jpg');
+		background-image: var(--background-gradient), url('../img/brass_640.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
