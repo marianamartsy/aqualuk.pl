@@ -24,7 +24,7 @@
 	margin-bottom: 15px;
 	padding: 5px 10px;
 	border: none;
-	border-radius: 8px;
+	border-radius: 5px;
 	font-size: 15px;
 }
 .contact__form-textarea {
@@ -38,7 +38,7 @@
 	width: 100%;
 	color: var(--pure-white-color);
 	border: 0.1px solid var(--pure-white-color);
-	border-radius: 7px;
+	border-radius: 5px;
 	background-color: var(--main-color);
 	cursor: pointer;
 }
