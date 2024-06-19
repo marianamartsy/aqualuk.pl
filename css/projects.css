@@ -7,8 +7,11 @@
 .project {
 	position: relative;
 	margin: 10px;
+	transition: transform .5s;
 }
-
+.project:hover{
+	transform: scale(1.1);
+}
 .project img {
 	width: 100%;
 	max-width: 300px;

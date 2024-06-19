@@ -23,13 +23,40 @@
 	font-size: 35px;
 	color: var(--secondary-color);
 	margin: 20px;
-	animation: scale 2s infinite ease-in-out;
+	animation: fadeIn 2s ease-in-out;
 }
 
 .offer-list .offer-list__item:nth-of-type(even) .bi {
 	color: var(--light-color);
 }
-
+.offer__box-contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 25px auto;
+	height: 200px;
+	width: 70vw;
+	justify-content: center;
+	border: 1px solid var(--main-color);
+	padding: 10px;
+	
+}
+.offer__box-text a {
+	color: var(--main-color);
+}
+.offer__box-contact-icons {
+	display: flex;
+	list-style: none;
+	padding: 20px;
+}
+.offer__box-contact-icon a {
+	margin: 25px;
+	font-size: 50px;
+	color: var(--main-color);
+}
+.offer__box-contact-icon {
+	animation: scale 2s infinite ease-in-out;
+}
 @media (min-width: 768px) {
 	.offer-list__item {
 		font-size: 25px;
