@@ -41,7 +41,8 @@
 	padding: 10px;
 	
 }
-.offer__box-text a {
+.offer__box-text a, .offer__box-text p{
+	text-align: center;
 	color: var(--main-color);
 }
 .offer__box-contact-icons {
